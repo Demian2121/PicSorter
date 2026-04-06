@@ -1,0 +1,36 @@
+{
+    "trabajos_en_cubierta": [
+        "workers on roof with safety harness",
+        "worker attached to rope on building",
+        "construction workers on rooftop",
+        "roof maintenance work with people",
+        "workers installing roof materials"
+    ],
+    "superficie_cubierta": [
+        "roof tiles clay or ceramic",
+        "sloped roof with tiles",
+        "flat roof with waterproof membrane",
+        "bitumen waterproof roof surface",
+        "roof covering materials"
+    ],
+    "estructuras_cubierta": [
+        "metal structure on roof",
+        "steel beams construction",
+        "roof structural frame",
+        "awning or canopy on building",
+        "small roof extension structure"
+    ],
+    "instalaciones_cubierta": [
+        "pipes on roof",
+        "gas pipes on building rooftop",
+        "exposed plumbing pipes exterior",
+        "roof drainage pipes",
+        "building rooftop installations"
+    ],
+    "cubierta_general": [
+        "building rooftop view",
+        "roof of residential building",
+        "top of building exterior",
+        "overall roof structure view"
+    ]
+}

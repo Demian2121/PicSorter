@@ -1,0 +1,14 @@
+{
+    "trabajos_en_fachada": "Ejecución activa de trabajos en la fachada del edificio, como pintura, limpieza, reparación o intervención con personal técnico en altura",
+    "danos_fachada": "Presencia de daños visibles en la fachada, incluyendo grietas, fisuras, humedad, desprendimientos, manchas o deterioro estructural",
+    "instalaciones_fachada": "Elementos de instalaciones expuestos en la fachada, como tuberías, bajantes, cableado, redes o conducciones visibles",
+    "elementos_fachada": "Componentes arquitectónicos y funcionales de la fachada como ventanas, balcones, barandas, marcos y acabados",
+    "cubierta_visible": "Elementos de la cubierta o techo visibles desde la fachada, incluyendo tejas, bordes del techo o superficies superiores del edificio",
+    "fachada_general": "Vista general de la fachada del edificio sin identificar actividades, daños o intervenciones específicas",
+    "Revisar": "Imágenes que no pueden clasificarse con certeza y requieren revisión manual debido a baja confianza del modelo",
+    "trabajos_en_cubierta": "Actividades de construcción, mantenimiento o reparación en la cubierta del edificio, incluyendo trabajos en altura con personal o equipos",
+    "instalaciones_cubierta": "Elementos técnicos instalados en la cubierta como tuberías, ductos, sistemas mecánicos o equipos visibles",
+    "estructuras_cubierta": "Estructuras constructivas en la cubierta, como vigas metálicas, soportes, marcos o ampliaciones estructurales",
+    "superficie_cubierta": "Superficie de la cubierta del edificio, incluyendo tejas, membranas impermeables, acabados o materiales de recubrimiento",
+    "cubierta_general": "Vista general de la cubierta o techo del edificio sin presencia clara de daños, trabajos o instalaciones específicas"
+}

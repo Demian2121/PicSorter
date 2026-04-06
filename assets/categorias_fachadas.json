@@ -1,0 +1,39 @@
+{
+  "trabajos_en_fachada": [
+    "workers painting building",
+    "workers cleaning facade",
+    "construction workers on building",
+    "workers using ropes on facade",
+    "building maintenance work"
+  ],
+
+  "elementos_fachada": [
+    "building windows and facade elements",
+    "pipes on building wall",
+    "balconies on building exterior",
+    "external building components",
+    "facade with architectural elements"
+  ],
+
+  "danos_fachada": [
+    "cracked wall",
+    "water damage wall",
+    "damaged building facade",
+    "humidity stains wall",
+    "building defects exterior"
+  ],
+
+  "cubierta_visible": [
+    "roof tiles",
+    "top of building roof",
+    "building rooftop",
+    "roof seen from facade"
+  ],
+
+  "fachada_general": [
+    "building facade exterior",
+    "full building front view",
+    "apartment building exterior",
+    "residential facade view"
+  ]
+}
