@@ -117,42 +117,85 @@ El sistema realiza las siguientes etapas:
 
 ---
 
+## Categorías del modelo
+
+El sistema utiliza descripciones semánticas para clasificar las imágenes mediante CLIP.
+
+### Fachadas
+
+Categorías utilizadas:
+
+```
+trabajos_en_fachada
+elementos_fachada
+danos_fachada
+cubierta_visible
+fachada_general
+```
+
+Descripción:
+
+* trabajos_en_fachada: actividades como pintura, limpieza o trabajos en altura
+* elementos_fachada: ventanas, tuberías, balcones y elementos visibles
+* danos_fachada: grietas, humedad, deterioro y defectos
+* cubierta_visible: partes de la cubierta visibles desde la fachada
+* fachada_general: vistas generales del edificio
+
+---
+
+### Cubiertas (plana)
+
+Categorías utilizadas:
+
+```
+trabajos_en_cubierta
+superficie_cubierta
+estructuras_cubierta
+instalaciones_cubierta
+cubierta_general
+```
+
+Descripción:
+
+* trabajos_en_cubierta: actividades de mantenimiento o intervención
+* superficie_cubierta: materiales y acabados de la cubierta
+* estructuras_cubierta: estructuras metálicas, marquesinas y soportes
+* instalaciones_cubierta: tuberías, drenajes y redes expuestas
+* cubierta_general: vista general de la cubierta
+
+---
+
 ## Estructura de salida
 
 Ejemplo real de organización generada:
+
+### Fachadas
 
 ```
 destino/
 └── fachadas/
     └── conjunto_ejemplo/
-        ├── anclajes/
-        ├── acabados_muro/
-        ├── sellado_ventanas/
-        ├── ventanas/
-        ├── instalaciones/
-        ├── intervencion/
-        ├── danos_inspeccion/
-        ├── interior/
+        ├── trabajos_en_fachada/
+        ├── elementos_fachada/
+        ├── danos_fachada/
         ├── cubierta_visible/
+        ├── fachada_general/
         └── Revisar/
 ```
 
-Para cubiertas:
+---
+
+### Cubiertas
 
 ```
 destino/
 └── cubiertas/
     └── conjunto_ejemplo/
-        ├── anclajes/
-        ├── seguridad/
-        ├── arreglo_tejas/
-        ├── levantamiento_manto/
-        ├── alistamiento/
-        ├── rependientado/
-        ├── instalacion_manto/
-        ├── carpinteria/
-        ├── marquesinas/
-        ├── tuberia_gas/
+        ├── trabajos_en_cubierta/
+        ├── superficie_cubierta/
+        ├── estructuras_cubierta/
+        ├── instalaciones_cubierta/
+        ├── cubierta_general/
         └── Revisar/
 ```
 
@@ -176,15 +219,15 @@ Ejemplo de contenido:
 Resumen por conjunto y actividad:
 
 Conjunto: conjunto_ejemplo
-  - anclajes: 12 fotos
-  - ventanas: 25 fotos
-  - intervencion: 40 fotos
+  - trabajos_en_fachada: 30 fotos
+  - elementos_fachada: 45 fotos
+  - danos_fachada: 12 fotos
   - Revisar: 8 fotos
 
 === Detalle de fotos clasificadas ===
 
-IMG_001.jpg -> conjunto_ejemplo / anclajes (92.34%)
-IMG_002.jpg -> conjunto_ejemplo / ventanas (87.12%)
+IMG_001.jpg -> conjunto_ejemplo / trabajos_en_fachada (92.34%)
+IMG_002.jpg -> conjunto_ejemplo / elementos_fachada (87.12%)
 IMG_003.jpg -> conjunto_ejemplo / Revisar (65.20%)
 ```
 
